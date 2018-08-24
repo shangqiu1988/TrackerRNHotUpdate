@@ -11,9 +11,11 @@ Pod::Spec.new do |s|
    
   s.source_files = 'hotUpdate/**/*', 'Controller*.{h,m}','util/*.{h,m}','location/*.{h,m}','map/*.{h,m}'
   s.frameworks="CoreLocation","Foundation"
+  s.dependency 'React'
   s.dependency "SSZipArchive"
   s.dependency "JSONKit"
   s.dependency 'AMapSearch-NO-IDFA', '~> 6.1.1'
   s.dependency 'AMapLocation-NO-IDFA', '~> 2.6.1'
   s.dependency 'AMapNavi-NO-IDFA', '~> 6.2.0'
+
 end
