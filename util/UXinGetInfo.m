@@ -8,7 +8,11 @@
 
 #import "UXinGetInfo.h"
 #import <CloudPushSDK/CloudPushSDK.h>
+#if __has_include( <JSONKit/JSONKit.h>)
+#import <JSONKit/JSONKit.h>
+#else
 #import "JSONKit.h"
+#endif
 #import "TrackerJsConfig.h"
 #define KUserId @"KUserId"
 #define KMobile @"KMobile"

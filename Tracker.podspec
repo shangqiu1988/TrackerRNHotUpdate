@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/shangqiu1988/TrackerRNHotUpdate', :branch => "master" }
   s.ios.deployment_target = '9.0'
    
-  s.source_files = 'hotUpdate/**/*', 'Controller*.{h,m}','util/*.{h,m}','location/*.{h,m}','map/*.{h,m}'
+  s.source_files = 'hotUpdate/**/*', 'Controller/*.{h,m}','util/*.{h,m}','location/*.{h,m}','map/*.{h,m}'
   s.frameworks="CoreLocation","Foundation"
   s.dependency 'React'
   s.dependency "SSZipArchive"

@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "React/RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 #import "UXinHelper.h"
-#import "React/RCTEventDispatcher.h"
-#import "React/RCTBridge.h"
+#import <React/RCTEventDispatcher.h>
+#import <React/RCTBridge.h>
 @interface UXinGetInfo : NSObject<RCTBridgeModule>
 
 @end
